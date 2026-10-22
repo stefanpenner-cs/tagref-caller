@@ -1,0 +1,6 @@
+name: m8-light-a-full-light
+on:
+  workflow_dispatch:
+jobs:
+  call:
+    uses: stefanpenner-cs/tagref-callee/.github/workflows/a-full-light.yaml@light-a

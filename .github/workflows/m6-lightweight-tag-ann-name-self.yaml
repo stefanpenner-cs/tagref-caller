@@ -1,0 +1,6 @@
+name: m6-lightweight-tag-ann-name-self
+on:
+  workflow_dispatch:
+jobs:
+  call:
+    uses: stefanpenner-cs/tagref-callee/.github/workflows/a-self.yaml@annotated-named-lw
